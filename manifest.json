@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "minimum_chrome_version": "116",
+    "name": "Websocket Demo Manifest V3",
+    "version": "1.0",
+    "description": "Demo extension for websockets in Manifest V3",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": "icon.png"
+    }
+}
